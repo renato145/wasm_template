@@ -9,12 +9,12 @@ export const Example = () => {
   }
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col flex-wrap items-center">
       <p className="text-gray-100 font-semibold">Example component</p>
-      <div className="flex flex-row mt-6 items-baseline">
+      <div className="flex flex-row flex-wrap mt-6 items-baseline">
         <p className="text-gray-100">Alert text:</p>
         <input
-          className="ml-3 h-6 p-1 focus:outline-none"
+          className="ml-3 h-6 p-1 w-20 md:w-auto focus:outline-none"
           placeholder="enter text..."
           type="text"
           ref={ref}

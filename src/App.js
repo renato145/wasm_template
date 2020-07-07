@@ -4,7 +4,7 @@ import './index.css';
 
 export const App = () => {
   return (
-    <div className="mx-auto mt-6 p-5 w-1/2 rounded shadow bg-gray-700">
+    <div className="mx-auto mt-6 p-5 md:w-1/2 rounded shadow bg-gray-700">
       <Example />
     </div>
   );
