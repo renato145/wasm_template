@@ -14,7 +14,7 @@ export const Example = () => {
       <div className="flex flex-row mt-6 items-baseline">
         <p className="text-gray-100">Alert text:</p>
         <input
-          className="ml-3 h-6 focus:outline-none"
+          className="ml-3 h-6 p-1 focus:outline-none"
           placeholder="enter text..."
           type="text"
           ref={ref}
