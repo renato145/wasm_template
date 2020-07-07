@@ -1,6 +1,6 @@
 {
   "name": "wasm_template",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Template for wasm+react+tailwind",
   "homepage": "https://renato145.github.io/wasm_template/",
   "private": true,
